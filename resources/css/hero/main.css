@@ -1,2 +1,8 @@
-nav .img-header {
+nav .form-control {
+    border: none;
+}
+
+nav .form-control:focus {
+    box-shadow: none;
+    border: none;
 }
