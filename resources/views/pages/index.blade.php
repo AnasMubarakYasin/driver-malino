@@ -12,4 +12,6 @@
 
     <x-heros.main />
 
+    <x-sections.menu />
+
 @endsection
