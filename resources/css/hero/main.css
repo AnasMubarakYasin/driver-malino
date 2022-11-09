@@ -6,3 +6,93 @@ nav .form-control:focus {
     box-shadow: none;
     border: none;
 }
+
+nav .sub-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    place-items: center;
+}
+
+nav .user {
+    display: grid;
+    place-items: center;
+}
+
+nav .content-user {
+    display: flex;
+    margin-top: 5px;
+    place-items: center;
+    gap: 20px;
+}
+
+nav .text-user {
+    margin-top: 5px;
+}
+
+nav .sub-navbar .bi-person-fill {
+    font-size: 70px;
+    height: 80px;
+}
+
+nav .sub-navbar .btn-custom {
+    margin-top: 5px;
+    background-color: #fff;
+    padding: 2px 7px;
+}
+
+nav .sub-navbar .btn-custom:hover {
+    background: transparent;
+    border: 1px solid;
+}
+
+nav .content-saldo {
+    display: flex;
+    place-items: center;
+    gap: 20px;
+}
+
+nav .content-saldo .bi {
+    font-size: 50px;
+}
+
+@media (max-width: 766px) {
+    nav .hiden {
+        display: none;
+    }
+
+    nav .navbar-collapse {
+        justify-content: space-between;
+    }
+
+    nav .sub-navbar {
+        padding: 0;
+    }
+
+    nav .sub-navbar .bi-person-fill {
+        font-size: 45px;
+        height: 50px;
+    }
+
+    nav .content-saldo .bi {
+        font-size: 25px;
+    }
+
+    nav .content-saldo {
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    nav .content-user {
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    nav h6 {
+        font-size: 11px;
+    }
+
+    nav h5 {
+        font-size: 15px;
+    }
+}
