@@ -1,4 +1,4 @@
-<section class="container my-4">
+<section id="main-service" class="container my-4">
     <h2>Layanan Utama</h2>
     <p>Pesan Layanan sesuai kebutuhan</p>
     <ul class="nav nav-pills nav-fill gap-4" id="pills-tab" role="tablist">
