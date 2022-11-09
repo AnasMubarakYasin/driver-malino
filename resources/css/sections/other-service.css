@@ -1,17 +1,14 @@
 #other-service {
 }
-#other-service .swiper {
-    width: 600px;
-    height: 300px;
-}
 #other-service .container-box {
   width: 100%;
   display: grid;
   grid-auto-flow: column;
+  justify-content: left;
   gap: 16px;
   overflow: auto;
 }
-#other-service .box {
+#other-service .thumb {
     width: 120px;
     height: 120px;
     background-color: teal;

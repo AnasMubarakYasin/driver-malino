@@ -3,19 +3,46 @@
     <p>Pesan Layanan kebutuhan lainnya disini</p>
     <section class="container-box">
         <figure class="box">
-            <img src="" alt="">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
         </figure>
         <figure class="box">
-            <img src="" alt="">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
         </figure>
         <figure class="box">
-            <img src="" alt="">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
         </figure>
         <figure class="box">
-            <img src="" alt="">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
         </figure>
         <figure class="box">
-            <img src="" alt="">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
+        </figure>
+        <figure class="box">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
+        </figure>
+        <figure class="box">
+            <img class="thumb" src="" alt="">
+            <figcaption>
+                item
+            </figcaption>
         </figure>
     </section>
 </section>

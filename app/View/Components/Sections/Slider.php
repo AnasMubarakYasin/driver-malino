@@ -4,7 +4,7 @@ namespace App\View\Components\Sections;
 
 use Illuminate\View\Component;
 
-class Menu extends Component
+class Slider extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class Menu extends Component
      */
     public function render()
     {
-        return view('components.sections.menu');
+        return view('components.sections.slider');
     }
 }
