@@ -1,6 +1,4 @@
-<div
-    style="background: linear-gradient(180deg, #f1602b, #fa3c0f); border-bottom-right-radius: 30px; border-bottom-left-radius: 30px;
-">
+<div style="background-color: #f1602b; position: fixed; width: 100%; top: 0; z-index: 99;">
     <!-- Well begun is half done. - Aristotle -->
     <nav class="navbar navbar-expand-md">
         <div class="container d-block">
@@ -32,7 +30,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="sub-navbar">
+            {{-- <div class="sub-navbar">
                 <div class="content-user">
                     <div class="user">
                         <i class="bi bi-person-fill"></i>
@@ -51,8 +49,32 @@
                         <small>Kumpulkan poin anda</small>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </nav>
 
+</div>
+<div class="sub-hero">
+    <div class="container">
+        <div class="sub-navbar">
+            <div class="content-user">
+                <div class="user">
+                    <i class="bi bi-person-fill"></i>
+                    <h6 class="m-0 text-white fw-bolder">Name</h6>
+                </div>
+                <div class="text-user text-white">
+                    <small>saldo anda saat ini</small>
+                    <h5 class="m-0"><b>Rp 0</b></h5>
+                    <a href="" class="btn btn-custom hiden"><i class="bi bi-wallet-fill"></i> isi saldo</a>
+                </div>
+            </div>
+            <div class="content-saldo">
+                <i class="bi bi-cash-coin"></i>
+                <div class="saldo-name text-white">
+                    <h5 class="m-0 fw-bolder">POIN 0</h5>
+                    <small>Kumpulkan poin anda</small>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

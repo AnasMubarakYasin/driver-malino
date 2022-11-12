@@ -5,8 +5,11 @@
     @vite('resources/css/hero/main.css')
 
     @vite('resources/css/sections/slider.css')
+    @vite('resources/css/sections/main-service.css')
     @vite('resources/css/sections/other-service.css')
     @vite('resources/css/sections/online-product.css')
+    @vite('resources/css/sections/around.css')
+    @vite('resources/css/sections/join.css')
 
     @vite('resources/css/navs/bottom-bar.css')
 
@@ -24,6 +27,8 @@
     <x-sections.main-service />
     <x-sections.other-service />
     <x-sections.online-product />
+    <x-sections.around />
+    <x-sections.join />
 
     <x-navs.bottom-bar />
 
