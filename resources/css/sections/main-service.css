@@ -1,2 +1,8 @@
 #main-service {
 }
+
+@media (max-width: 766px) {
+    #main-service .col-3 {
+        padding: 0;
+    }
+}

@@ -1,0 +1,54 @@
+#arround .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#arround .header h5 {
+    color: #140871;
+}
+
+#arround .button-header a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+#arround .button-header a:hover {
+    color: #008081;
+}
+
+#arround .card-around {
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+}
+
+#arround .card {
+    margin-bottom: 1rem;
+    box-shadow: 1px 2px 3px 0px;
+}
+
+#arround .card-around .card-img-top {
+    height: 200px;
+}
+
+#arround .card-around .card-body {
+    line-height: 18px;
+}
+
+#arround .card-around .card-text {
+    font-weight: bold;
+}
+
+#arround .card-around .card-text-km {
+    font-size: 15px;
+    color: #198754;
+}
+
+#arround .card-around .card-text-open {
+    font-size: 11px;
+    color: red;
+}

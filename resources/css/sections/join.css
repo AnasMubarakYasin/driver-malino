@@ -1,0 +1,48 @@
+#join .text-header {
+    text-align: center;
+}
+
+#join .text-header h5 {
+    color: #f1602b;
+    margin: 0;
+}
+
+#join .card-join {
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+}
+
+#join .card-join {
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+}
+
+#join .card {
+    margin-bottom: 1rem;
+    box-shadow: 1px 2px 3px 0px;
+}
+
+#join .card .card-img-top {
+    border-radius: calc(0.375rem - 1px);
+}
+
+#join .card-join .card-img-top {
+    height: 150px;
+}
+
+#join .card-join .card-body {
+    padding: 5px 0;
+}
+
+#join .card-join .card-body p {
+    font-size: 15px;
+    font-weight: bold;
+}

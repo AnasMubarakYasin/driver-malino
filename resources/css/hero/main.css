@@ -7,52 +7,60 @@ nav .form-control:focus {
     border: none;
 }
 
-nav .sub-navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 70px;
-    place-items: center;
+.sub-hero {
+    background: linear-gradient(180deg, #f1602b, #fb4e04, #fa3c0fe0);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
-nav .user {
+.sub-navbar .user {
     display: grid;
     place-items: center;
 }
 
-nav .content-user {
+.sub-navbar .content-user {
     display: flex;
     margin-top: 5px;
     place-items: center;
     gap: 20px;
 }
 
-nav .text-user {
+.sub-navbar .text-user {
     margin-top: 5px;
 }
 
-nav .sub-navbar .bi-person-fill {
+.sub-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    place-items: center;
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+
+.sub-navbar .bi-person-fill {
     font-size: 70px;
     height: 80px;
 }
 
-nav .sub-navbar .btn-custom {
+.sub-navbar .btn-custom {
     margin-top: 5px;
     background-color: #fff;
     padding: 2px 7px;
 }
 
-nav .sub-navbar .btn-custom:hover {
+.sub-navbar .btn-custom:hover {
     background: transparent;
     border: 1px solid;
 }
 
-nav .content-saldo {
+.sub-navbar .content-saldo {
     display: flex;
     place-items: center;
     gap: 20px;
 }
 
-nav .content-saldo .bi {
+.sub-navbar .content-saldo .bi {
     font-size: 50px;
 }
 
@@ -65,34 +73,34 @@ nav .content-saldo .bi {
         justify-content: space-between;
     }
 
-    nav .sub-navbar {
-        padding: 0;
+    .sub-navbar {
+        padding: 0 0 10px 0;
     }
 
-    nav .sub-navbar .bi-person-fill {
+    .sub-navbar .bi-person-fill {
         font-size: 45px;
         height: 50px;
     }
 
-    nav .content-saldo .bi {
+    .sub-navbar .content-saldo .bi {
         font-size: 25px;
     }
 
-    nav .content-saldo {
+    .sub-navbar .content-saldo {
         gap: 8px;
         font-size: 12px;
     }
 
-    nav .content-user {
+    .sub-navbar .content-user {
         gap: 8px;
         font-size: 12px;
     }
 
-    nav h6 {
+    .sub-navbar h6 {
         font-size: 11px;
     }
 
-    nav h5 {
+    .sub-navbar h5 {
         font-size: 15px;
     }
 }
