@@ -1,0 +1,24 @@
+#chat {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#chat button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(180deg, #f1602b, #fb4e04, #fa3c0fe0);
+}
+
+#chat .bi {
+    font-size: 25px;
+    color: white;
+}
+
+@media (max-width: 766px) {
+    #chat {
+        bottom: 90px;
+    }
+}

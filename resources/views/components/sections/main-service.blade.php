@@ -1,10 +1,11 @@
 <section id="main-service" class="container my-4">
     <h2>Layanan Utama</h2>
     <p>Pesan Layanan sesuai kebutuhan</p>
-    <ul class="nav nav-pills nav-fill gap-4" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills nav-fill gap-3" id="pills-tab" role="tablist">
         <li class="nav-item bg-secondary rounded" role="presentation">
-            <button class="nav-link text-light" id="pills-lodging-tab" data-bs-toggle="pill" data-bs-target="#pills-lodging"
-                type="button" role="tab" aria-controls="pills-lodging" aria-selected="true">lodging</button>
+            <button class="nav-link text-light" id="pills-lodging-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-lodging" type="button" role="tab" aria-controls="pills-lodging"
+                aria-selected="true">lodging</button>
         </li>
         <li class="nav-item bg-secondary rounded" role="presentation">
             <button class="nav-link text-light active" id="pills-transportation-tab" data-bs-toggle="pill"

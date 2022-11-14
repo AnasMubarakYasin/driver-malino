@@ -10,6 +10,9 @@
     @vite('resources/css/sections/online-product.css')
     @vite('resources/css/sections/around.css')
     @vite('resources/css/sections/join.css')
+    @vite('resources/css/sections/chat.css')
+
+    @vite('resources/css/sections/foother.css')
 
     @vite('resources/css/navs/bottom-bar.css')
 
@@ -29,6 +32,9 @@
     <x-sections.online-product />
     <x-sections.around />
     <x-sections.join />
+    <x-sections.chat />
+
+    <x-sections.foother />
 
     <x-navs.bottom-bar />
 

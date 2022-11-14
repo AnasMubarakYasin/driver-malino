@@ -4,15 +4,28 @@
     --bs-secondary-rgb: 0, 128, 128;
 }
 
+body {
+    color: #000000;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h2 {
     color: #f1602b;
     font-size: 30px;
     margin: 0;
 }
 
+@media (max-width: 766px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 10px;
-    height: 10px;
+    height: 0;
 }
 
 ::-webkit-scrollbar-thumb {
