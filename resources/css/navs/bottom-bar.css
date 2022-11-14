@@ -1,5 +1,7 @@
 #bottom-bar {
     container: bottom-bar / inline-size;
+    position: sticky;
+    bottom: 0;
 }
 #bottom-bar .container-box {
     display: grid;
