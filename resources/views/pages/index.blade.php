@@ -2,6 +2,9 @@
 
 @section('head')
 
+    @vite('resources/css/loading/loader.css')
+    @vite('resources/js/loading/loader.js')
+
     @vite('resources/css/hero/main.css')
 
     @vite('resources/css/sections/slider.css')
@@ -23,6 +26,8 @@
 @section('title', 'Home')
 
 @section('body')
+
+    <x-loadings.loader />
 
     <x-heros.main />
 
